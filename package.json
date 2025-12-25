@@ -1,0 +1,22 @@
+{
+  "name": "lab6-solution",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "setup": "node app.js --setup",
+    "producer1": "node rabbitmq/producer1.js",
+    "producer2": "node rabbitmq/producer2.js",
+    "consumer": "node rabbitmq/consumer.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6",
+    "mysql2": "^3.2.0",
+    "bcrypt": "^5.1.0",
+    "jsonwebtoken": "^9.0.0",
+    "amqplib": "^0.10.3",
+    "mongoose": "^7.3.4",
+    "dotenv": "^16.3.1"
+  }
+}

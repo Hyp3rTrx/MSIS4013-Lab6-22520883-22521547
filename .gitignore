@@ -1,0 +1,33 @@
+# Node
+node_modules/
+package-lock.json
+npm-debug.log*
+
+# Environment
+.env
+.env.*.local
+
+# Local DB / data
+/data/
+*.sqlite
+*.db
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Build / coverage
+dist/
+build/
+coverage/
+
+# Misc
+*.tgz
